@@ -56,14 +56,20 @@ npm install
 # Start the app
 npm run dev
 ```
+---
+
 ###🚀 Deployment
 
 Deployed on Vercel for fast hosting.
 [Live URL](https://virtual-scroll-list-one.vercel.app/)
 
+---
+
 ###📜 License
 
 This project is licensed under the MIT License.
+
+---
 
 ###👨‍💻 Author
 
