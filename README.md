@@ -1,69 +1,72 @@
-# React + TypeScript + Vite
+# Virtualized User List 🔍
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-18-blue)
+![Vite](https://img.shields.io/badge/Vite-Fast-purple)
+![TypeScript](https://img.shields.io/badge/TypeScript-Strict-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-Currently, two official plugins are available:
+A **React + TypeScript** application built with **Vite** that efficiently handles **large datasets** using **virtual scrolling** for high performance. Includes **real-time search** for quick filtering and a lightweight UI with **custom CSS**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Live Demo  
+[👉 **Click Here to View**](https://virtual-scroll-list-one.vercel.app/)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## ✅ Features
+- ⚡ **Virtualized Rendering** – Handles thousands of users without lag.
+- 🔍 **Search Functionality** – Instant filtering by name, email, or gender.
+- 📱 **Responsive Design** – Works across all devices.
+- 🏗 **Component-Based Architecture** – Modular and scalable.
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 🛠 Tech Stack
+- **React 18** (UI Library)
+- **TypeScript** (Type safety)
+- **Vite** (Fast build tool)
+- **CSS Modules / Vanilla CSS** (Lightweight styling)
+
+---
+📸 GIF Demo
+![Demo](https://github.com/user-attachments/assets/71a822de-4e3c-4b3a-9367-e2e32912bbe5)
+
+---
+
+## ⚡ Getting Started
+
+### **Prerequisites**
+- Node.js >= 16
+- npm or yarn
+
+### **Installation**
+```bash
+# Clone the repo
+git clone https://github.com/<your-username>/<your-repo>.git
+
+# Go to project folder
+cd <your-repo>
+
+# Install dependencies
+npm install
+
+# Start the app
+npm run dev
 ```
+🚀 Deployment
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Deployed on Vercel for fast hosting.
+[Live URL](https://virtual-scroll-list-one.vercel.app/)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+📜 License
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+This project is licensed under the MIT License.
+
+👨‍💻 Author
+
+[LinkedIn](https://www.linkedin.com/in/paneerselvam/)
+
+
+
+
