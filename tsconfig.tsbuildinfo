@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/userlist/performancemonitor.tsx","./src/components/userlist/statusbadge.tsx","./src/components/userlist/userdata.ts","./src/components/userlist/userlist.tsx","./src/components/virtualizedlist/row.tsx","./src/components/virtualizedlist/virtualizedlist.tsx"],"version":"5.8.3"}
