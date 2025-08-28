@@ -58,20 +58,20 @@ npm run dev
 ```
 ---
 
-###🚀 Deployment
+🚀 Deployment
 
 Deployed on Vercel for fast hosting.
 [Live URL](https://virtual-scroll-list-one.vercel.app/)
 
 ---
 
-###📜 License
+📜 License
 
 This project is licensed under the MIT License.
 
 ---
 
-###👨‍💻 Author
+👨‍💻 Author
 
 [LinkedIn](https://www.linkedin.com/in/paneerselvam/)
 
