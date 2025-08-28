@@ -10,7 +10,9 @@ A **React + TypeScript** application built with **Vite** that efficiently handle
 ---
 
 ## 🚀 Live Demo  
-[👉 **Click Here to View**](https://virtual-scroll-list-one.vercel.app/)
+<a href="https://virtual-scroll-list-one.vercel.app/" target="_blank">
+  <img src="https://img.shields.io/badge/Live%20Demo-Click%20Here-brightgreen" />
+</a>
 
 ---
 
