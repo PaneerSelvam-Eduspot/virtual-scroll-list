@@ -4,11 +4,12 @@
     "module": "ESNext",
     "moduleResolution": "Node",
     "jsx": "react-jsx",
+    "outDir": "./dist",
+    "rootDir": "./src",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
-    "types": ["node"],
-    "allowImportingTsExtensions": false
+    "noEmit": true               
   },
   "include": ["src"]
 }
